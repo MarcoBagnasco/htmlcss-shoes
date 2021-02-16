@@ -8,3 +8,22 @@ body{
     font-family: 'Rubik Mono One', sans-serif;
     text-transform: uppercase;
 }
+
+/* UTILITIES */
+.container{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+    height: 600px;
+    background-color: #fff;
+}
+
+/* SHOES SECT. */
+.shoes{
+    position: relative;
+    height: 100vh;
+    background-color: aqua;
+    border-bottom: 1px solid black;
+}
